@@ -14,7 +14,7 @@ This project is a console application that allows users to download videos from 
 
 ## Requirements
 
-1. **.NET 6 SDK** - Install from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
+1. **.NET 7 SDK** - Install from [here](https://dotnet.microsoft.com/en-us/download/dotnet/7.0).
 2. **FFmpeg** - You need to have FFmpeg installed and its path set correctly in the code:
    - You can download FFmpeg from [here](https://ffmpeg.org/download.html).
    - Set the `ffmpegPath` variable in the code to the path where `ffmpeg.exe` is installed on your machine.
@@ -23,4 +23,5 @@ This project is a console application that allows users to download videos from 
 
    To install YoutubeExplode, run the following command:
    ```bash
-   dotnet add package YoutubeExplode --version 6.0.0
+   dotnet add package YoutubeExplode --version 7.0.0
+
