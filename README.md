@@ -29,4 +29,4 @@ This project is a console application that allows users to download videos from 
 
    To install YoutubeExplode, run the following command:
    ```bash
-   dotnet add package YoutubeExplode --version 8.0.0
+   dotnet add package YoutubeExplode --version 6.4.0
