@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "US+WCKdON0u+t/xP1dsTkwvi46Pl+uxUZ4pXdzW2ARXSOJCORpPZ7IkcC4CdqWYA5AzgkuBgj4JqFsza1kbLrg==",
+  "dgSpecHash": "FO1cUW+UpFpbY/WsdBs73qnsHnD14rTxnXYdITwlsoYPhzs3tlSRa3uAIUkYgyjsgTBGz+Oq1Dwp4yf1WXeApA==",
   "success": true,
   "projectFilePath": "E:\\GitHubProjects\\YoutubePlaylistDownloader\\YoutubeDownloader\\YoutubeDownloader.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
-    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.text.encoding.codepages\\7.0.0\\system.text.encoding.codepages.7.0.0.nupkg.sha512",
+    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\youtubeexplode\\6.4.0\\youtubeexplode.6.4.0.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\youtubeexplode.converter\\6.4.0\\youtubeexplode.converter.6.4.0.nupkg.sha512"
   ],
@@ -19,10 +19,10 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MediaToolkit 1.1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'MediaToolkit 1.1.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "MediaToolkit",
       "targetGraphs": [
-        "net7.0"
+        "net8.0"
       ]
     }
   ]
