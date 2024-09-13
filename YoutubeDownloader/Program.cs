@@ -52,7 +52,7 @@ class Program
                     // Get available audio streams
                     var audioStreams = streamManifest.GetAudioStreams().OrderByDescending(s => s.Bitrate).ToList();
 
-                    if (selectedQualityWay == 0)
+                    if (selectedQualityWay == 1)
                     {
                         // Display available video quality options to the user
                         Console.WriteLine("Available video quality options:");
@@ -102,12 +102,17 @@ class Program
                         selectedVideoStream = videoStreams.FirstOrDefault();
                         selectedAudioStream = audioStreams.FirstOrDefault();
                     }
-                    else
+                    else if(selectedQualityWay == 3)
                     {
                         var videoStreamsCount = videoStreams.Count();
                         selectedVideoStream = videoStreams[videoStreamsCount - 1];
                         selectedAudioStream = audioStreams.FirstOrDefault();
                         ;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid choice. Skipping download.");
+
                     }
                     if (selectedVideoStream != null && selectedAudioStream != null)
                     {
