@@ -15,13 +15,18 @@ This project is a console application that allows users to download videos from 
 ## Requirements
 
 1. **.NET 7 SDK** - Install from [here](https://dotnet.microsoft.com/en-us/download/dotnet/7.0).
-2. **FFmpeg** - You need to have FFmpeg installed and its path set correctly in the code:
-   - You can download FFmpeg from [here](https://ffmpeg.org/download.html).
-   - Set the `ffmpegPath` variable in the code to the path where `ffmpeg.exe` is installed on your machine.
+2. **FFmpeg** - You need to have FFmpeg installed and set its path in the code:
+   - Download FFmpeg from [here](https://ffmpeg.org/download.html).
+   - Extract FFmpeg and update the path in the code as follows:
+     - Open the `Program.cs` file.
+     - Find the line:
+       ```csharp
+       string ffmpegPath = @"C:\ffmpeg\ffmpeg.exe";
+       ```
+     - Replace `C:\ffmpeg\ffmpeg.exe` with the actual path where `ffmpeg.exe` is located on your system.
 
 3. **YoutubeExplode** - This project uses the `YoutubeExplode` library to access and download video streams from YouTube.
 
    To install YoutubeExplode, run the following command:
    ```bash
-   dotnet add package YoutubeExplode --version 6.4.0
-
+   dotnet add package YoutubeExplode --version 7.0.0
