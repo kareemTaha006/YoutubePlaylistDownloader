@@ -105,9 +105,17 @@ class Program
                     else if(selectedQualityWay == 3)
                     {
                         var videoStreamsCount = videoStreams.Count();
-                        selectedVideoStream = videoStreams[videoStreamsCount - 1];
+                  
+                        if (videoStreamsCount >= 2)
+                        {
+                            selectedVideoStream = videoStreams.ElementAt(1);
+                        }
+                        else
+                        {
+                            selectedVideoStream = videoStreams[videoStreamsCount];
+                        }
                         selectedAudioStream = audioStreams.FirstOrDefault();
-                        ;
+                        
                     }
                     else
                     {
