@@ -10,7 +10,7 @@
         "dependencies": {
           "MediaToolkit": "1.1.0.1",
           "System.Configuration.ConfigurationManager": "8.0.0",
-          "YoutubeExplode": "6.4.0",
+          "YoutubeExplode": "6.4.3",
           "YoutubeExplode.Converter": "6.4.0"
         },
         "runtime": {
@@ -87,21 +87,21 @@
         }
       },
       "System.Text.Encoding.CodePages/8.0.0": {},
-      "YoutubeExplode/6.4.0": {
+      "YoutubeExplode/6.4.3": {
         "dependencies": {
           "AngleSharp": "1.1.2"
         },
         "runtime": {
           "lib/net8.0/YoutubeExplode.dll": {
-            "assemblyVersion": "6.4.0.0",
-            "fileVersion": "6.4.0.0"
+            "assemblyVersion": "6.4.3.0",
+            "fileVersion": "6.4.3.0"
           }
         }
       },
       "YoutubeExplode.Converter/6.4.0": {
         "dependencies": {
           "CliWrap": "3.6.6",
-          "YoutubeExplode": "6.4.0"
+          "YoutubeExplode": "6.4.3"
         },
         "runtime": {
           "lib/net8.0/YoutubeExplode.Converter.dll": {
@@ -167,12 +167,12 @@
       "path": "system.text.encoding.codepages/8.0.0",
       "hashPath": "system.text.encoding.codepages.8.0.0.nupkg.sha512"
     },
-    "YoutubeExplode/6.4.0": {
+    "YoutubeExplode/6.4.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jdjgUEQyTXG8CRtcadwjbymCNOQCis3fE1YQbjEZID+7foFcH+2gVqli4MpA+AFwDI2klZBG2aaFbOLDqYExzg==",
-      "path": "youtubeexplode/6.4.0",
-      "hashPath": "youtubeexplode.6.4.0.nupkg.sha512"
+      "sha512": "sha512-XM5NqB6rGBfeIlQNxx5XUFQ4eYtm9t6Gi0I0Q8UtiekwnPx3kt11cL/KAK1gnRq1huuJ43AKb/jq7A6gSciKNg==",
+      "path": "youtubeexplode/6.4.3",
+      "hashPath": "youtubeexplode.6.4.3.nupkg.sha512"
     },
     "YoutubeExplode.Converter/6.4.0": {
       "type": "package",

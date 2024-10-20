@@ -124,7 +124,7 @@
           }
         }
       },
-      "YoutubeExplode/6.4.0": {
+      "YoutubeExplode/6.4.3": {
         "type": "package",
         "dependencies": {
           "AngleSharp": "1.1.2"
@@ -366,10 +366,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "YoutubeExplode/6.4.0": {
-      "sha512": "jdjgUEQyTXG8CRtcadwjbymCNOQCis3fE1YQbjEZID+7foFcH+2gVqli4MpA+AFwDI2klZBG2aaFbOLDqYExzg==",
+    "YoutubeExplode/6.4.3": {
+      "sha512": "XM5NqB6rGBfeIlQNxx5XUFQ4eYtm9t6Gi0I0Q8UtiekwnPx3kt11cL/KAK1gnRq1huuJ43AKb/jq7A6gSciKNg==",
       "type": "package",
-      "path": "youtubeexplode/6.4.0",
+      "path": "youtubeexplode/6.4.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -384,7 +384,7 @@
         "lib/netstandard2.0/YoutubeExplode.xml",
         "lib/netstandard2.1/YoutubeExplode.dll",
         "lib/netstandard2.1/YoutubeExplode.xml",
-        "youtubeexplode.6.4.0.nupkg.sha512",
+        "youtubeexplode.6.4.3.nupkg.sha512",
         "youtubeexplode.nuspec"
       ]
     },
@@ -415,7 +415,7 @@
     "net8.0": [
       "MediaToolkit >= 1.1.0.1",
       "System.Configuration.ConfigurationManager >= 8.0.0",
-      "YoutubeExplode >= 6.4.0",
+      "YoutubeExplode >= 6.4.3",
       "YoutubeExplode.Converter >= 6.4.0"
     ]
   },
@@ -473,7 +473,7 @@
           },
           "YoutubeExplode": {
             "target": "Package",
-            "version": "[6.4.0, )"
+            "version": "[6.4.3, )"
           },
           "YoutubeExplode.Converter": {
             "target": "Package",

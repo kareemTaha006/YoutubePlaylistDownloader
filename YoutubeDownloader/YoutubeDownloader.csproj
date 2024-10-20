@@ -10,7 +10,7 @@
   <ItemGroup>
     <PackageReference Include="MediaToolkit" Version="1.1.0.1" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
-    <PackageReference Include="YoutubeExplode" Version="6.4.0" />
+    <PackageReference Include="YoutubeExplode" Version="6.4.3" />
     <PackageReference Include="YoutubeExplode.Converter" Version="6.4.0" />
   </ItemGroup>
 

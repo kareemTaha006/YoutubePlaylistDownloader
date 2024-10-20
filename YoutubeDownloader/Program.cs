@@ -43,9 +43,17 @@ class Program
 
                     // Sanitize the video title for use as a file name
                     string sanitizedTitle = string.Concat(video.Title.Split(Path.GetInvalidFileNameChars()));
-
-                    // Get stream manifest
-                    var streamManifest = await youtube.Videos.Streams.GetManifestAsync(video.Id);
+                    StreamManifest streamManifest;
+                    try
+                    {
+                        // Get stream manifest
+                         streamManifest = await youtube.Videos.Streams.GetManifestAsync(video.Id);
+                    }
+                    catch (YoutubeExplode.Exceptions.VideoUnplayableException ex)
+                    {
+                        Console.WriteLine($"Skipping unplayable video: {video.Title} ({ex.Message})");
+                        continue; 
+                    }
 
                     // Get available video streams
                     var videoStreams = streamManifest.GetVideoStreams().OrderByDescending(s => s.VideoQuality).ToList();
@@ -147,10 +155,14 @@ class Program
                     {
                         Console.WriteLine($"No suitable video or audio stream found for {video.Title}");
                     }
+
+
                 }
 
                 Console.WriteLine("All videos have been downloaded.");
             }
+        
+
             catch (Exception ex)
             {
                 Console.WriteLine($"An error occurred: {ex.Message}");
