@@ -33,10 +33,14 @@ class Program
                 var videos = await youtube.Playlists.GetVideosAsync(playlist.Id);
                 Console.WriteLine($"Number of videos in playlist: {videos.Count}");
 
-                Console.WriteLine("1-Choose The Quailty 2- Highest Quailty 3- medium Quilty");
+                Console.WriteLine("1-Choose The Quailty 2- Highest Quailty 3- medium Quilty -4 Minimum Quality 360p");
                 int selectedQualityWay = int.Parse(Console.ReadLine());
                 foreach (var video in videos)
                 {
+                    //if (video == videos[0])
+                    //{
+                    //    continue;
+                    //}
                     IAudioStreamInfo selectedAudioStream = null;
                     IVideoStreamInfo selectedVideoStream = null;
                     Console.WriteLine($"\nDownloading: {video.Title}");
@@ -124,6 +128,13 @@ class Program
                         }
                         selectedAudioStream = audioStreams.FirstOrDefault();
                         
+                    }
+                    else if (selectedQualityWay == 4)
+                    {
+            
+                            selectedVideoStream = videoStreams.FirstOrDefault(x=>x.Container==Container.Mp4 &&x.VideoQuality.MaxHeight==360);
+                            selectedAudioStream = audioStreams.FirstOrDefault();
+
                     }
                     else
                     {
