@@ -23,15 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "YoutubeDownloader",
+              "Title": "YoutubeDownloader.csproj",
               "DocumentMoniker": "E:\\GitHubProjects\\YoutubePlaylistDownloader\\YoutubeDownloader\\YoutubeDownloader.csproj",
               "RelativeDocumentMoniker": "YoutubeDownloader\\YoutubeDownloader.csproj",
               "ToolTip": "E:\\GitHubProjects\\YoutubePlaylistDownloader\\YoutubeDownloader\\YoutubeDownloader.csproj",
               "RelativeToolTip": "YoutubeDownloader\\YoutubeDownloader.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-20T06:10:33.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-20T06:10:33.757Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "YoutubeDownloader\\Program.cs",
               "ToolTip": "E:\\GitHubProjects\\YoutubePlaylistDownloader\\YoutubeDownloader\\Program.cs",
               "RelativeToolTip": "YoutubeDownloader\\Program.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAewDYAAAAiAAAA",
+              "ViewState": "AQIAANEAAAAAAAAAAAAgwKIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-16T06:44:23.308Z",
               "EditorCaption": ""

@@ -1,17 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "qJeEJXaYtvqP2sbycqDeGG7tK1oSENtNyjh+EVmEM2l1k3Mc+1RBRyueMHi3p4jydutOUzfA4iLEer2Gok/dNg==",
+  "dgSpecHash": "3+kLnh75dUrf6445RWFgNGM49e/HxMkc3deRrtd/N1idJ1F2WE01pyIwrkE8kn9rYppF+8/lSRoLNUhwHT6aYg==",
   "success": true,
   "projectFilePath": "E:\\GitHubProjects\\YoutubePlaylistDownloader\\YoutubeDownloader\\YoutubeDownloader.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
+    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\anglesharp\\1.2.0\\anglesharp.1.2.0.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\cliwrap\\3.6.6\\cliwrap.3.6.6.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\mediatoolkit\\1.1.0.1\\mediatoolkit.1.1.0.1.nupkg.sha512",
+    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.1\\microsoft.bcl.asyncinterfaces.9.0.1.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.io.pipelines\\9.0.1\\system.io.pipelines.9.0.1.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
-    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512",
-    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\youtubeexplode\\6.4.3\\youtubeexplode.6.4.3.nupkg.sha512",
+    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.text.encodings.web\\9.0.1\\system.text.encodings.web.9.0.1.nupkg.sha512",
+    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\system.threading.tasks.extensions\\4.6.0\\system.threading.tasks.extensions.4.6.0.nupkg.sha512",
+    "C:\\Users\\HERO-01279009318\\.nuget\\packages\\youtubeexplode\\6.5.4\\youtubeexplode.6.5.4.nupkg.sha512",
     "C:\\Users\\HERO-01279009318\\.nuget\\packages\\youtubeexplode.converter\\6.4.0\\youtubeexplode.converter.6.4.0.nupkg.sha512"
   ],
   "logs": [
