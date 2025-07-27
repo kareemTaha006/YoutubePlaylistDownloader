@@ -11,7 +11,7 @@
           "MediaToolkit": "1.1.0.1",
           "System.Configuration.ConfigurationManager": "8.0.0",
           "YoutubeExplode": "6.5.4",
-          "YoutubeExplode.Converter": "6.4.0"
+          "YoutubeExplode.Converter": "6.5.4"
         },
         "runtime": {
           "YoutubeDownloader.dll": {}
@@ -25,11 +25,11 @@
           }
         }
       },
-      "CliWrap/3.6.6": {
+      "CliWrap/3.8.1": {
         "runtime": {
-          "lib/netcoreapp3.0/CliWrap.dll": {
-            "assemblyVersion": "3.6.6.0",
-            "fileVersion": "3.6.6.0"
+          "lib/net8.0/CliWrap.dll": {
+            "assemblyVersion": "3.8.1.0",
+            "fileVersion": "3.8.1.0"
           }
         }
       },
@@ -142,15 +142,15 @@
           }
         }
       },
-      "YoutubeExplode.Converter/6.4.0": {
+      "YoutubeExplode.Converter/6.5.4": {
         "dependencies": {
-          "CliWrap": "3.6.6",
+          "CliWrap": "3.8.1",
           "YoutubeExplode": "6.5.4"
         },
         "runtime": {
-          "lib/net8.0/YoutubeExplode.Converter.dll": {
-            "assemblyVersion": "6.4.0.0",
-            "fileVersion": "6.4.0.0"
+          "lib/netstandard2.0/YoutubeExplode.Converter.dll": {
+            "assemblyVersion": "6.5.4.0",
+            "fileVersion": "6.5.4.0"
           }
         }
       }
@@ -169,12 +169,12 @@
       "path": "anglesharp/1.2.0",
       "hashPath": "anglesharp.1.2.0.nupkg.sha512"
     },
-    "CliWrap/3.6.6": {
+    "CliWrap/3.8.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8/WnYKDjXjqMp9ktCygmeC6kDsmSEKF4riEYNy98+nD3wOKbuxqOjmhiFMalOYlM+mUqfs3SOEowF20+loDZHQ==",
-      "path": "cliwrap/3.6.6",
-      "hashPath": "cliwrap.3.6.6.nupkg.sha512"
+      "sha512": "sha512-iSjGhNhIB0gg2ihaMNZ5ZKx1B29/i5F9dvFxa2f8mLCiHluXKHUXUpvg0abEZ0vwMpo5u9PNVdWTVyhFLKZihQ==",
+      "path": "cliwrap/3.8.1",
+      "hashPath": "cliwrap.3.8.1.nupkg.sha512"
     },
     "MediaToolkit/1.1.0.1": {
       "type": "package",
@@ -246,12 +246,12 @@
       "path": "youtubeexplode/6.5.4",
       "hashPath": "youtubeexplode.6.5.4.nupkg.sha512"
     },
-    "YoutubeExplode.Converter/6.4.0": {
+    "YoutubeExplode.Converter/6.5.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-35Mz0VHvwoFExYCaTtoBuk6LQc5RG4D3MxK2L3O08MY4vIacHpkv5FfjcEMncE0ZZ0gKkK9oVaSj7ClrWzWylA==",
-      "path": "youtubeexplode.converter/6.4.0",
-      "hashPath": "youtubeexplode.converter.6.4.0.nupkg.sha512"
+      "sha512": "sha512-Sa5S+7MGXnJk+svpUPOvoIK7QWQlUfY4liZRUUPv7oTAIyk7IY4SVHJDAG1dOAhQMh2734nBrs9y2ABlwrqJxg==",
+      "path": "youtubeexplode.converter/6.5.4",
+      "hashPath": "youtubeexplode.converter.6.5.4.nupkg.sha512"
     }
   }
 }

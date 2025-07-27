@@ -15,15 +15,15 @@
           }
         }
       },
-      "CliWrap/3.6.6": {
+      "CliWrap/3.8.1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/CliWrap.dll": {
+          "lib/net8.0/CliWrap.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netcoreapp3.0/CliWrap.dll": {
+          "lib/net8.0/CliWrap.dll": {
             "related": ".xml"
           }
         }
@@ -201,19 +201,19 @@
           }
         }
       },
-      "YoutubeExplode.Converter/6.4.0": {
+      "YoutubeExplode.Converter/6.5.4": {
         "type": "package",
         "dependencies": {
-          "CliWrap": "3.6.6",
-          "YoutubeExplode": "6.4.0"
+          "CliWrap": "3.8.1",
+          "YoutubeExplode": "6.5.4"
         },
         "compile": {
-          "lib/net8.0/YoutubeExplode.Converter.dll": {
+          "lib/netstandard2.0/YoutubeExplode.Converter.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/YoutubeExplode.Converter.dll": {
+          "lib/netstandard2.0/YoutubeExplode.Converter.dll": {
             "related": ".xml"
           }
         }
@@ -246,20 +246,20 @@
         "logo.png"
       ]
     },
-    "CliWrap/3.6.6": {
-      "sha512": "8/WnYKDjXjqMp9ktCygmeC6kDsmSEKF4riEYNy98+nD3wOKbuxqOjmhiFMalOYlM+mUqfs3SOEowF20+loDZHQ==",
+    "CliWrap/3.8.1": {
+      "sha512": "iSjGhNhIB0gg2ihaMNZ5ZKx1B29/i5F9dvFxa2f8mLCiHluXKHUXUpvg0abEZ0vwMpo5u9PNVdWTVyhFLKZihQ==",
       "type": "package",
-      "path": "cliwrap/3.6.6",
+      "path": "cliwrap/3.8.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "cliwrap.3.6.6.nupkg.sha512",
+        "cliwrap.3.8.1.nupkg.sha512",
         "cliwrap.nuspec",
         "favicon.png",
-        "lib/net462/CliWrap.dll",
-        "lib/net462/CliWrap.xml",
-        "lib/netcoreapp3.0/CliWrap.dll",
-        "lib/netcoreapp3.0/CliWrap.xml",
+        "lib/net8.0/CliWrap.dll",
+        "lib/net8.0/CliWrap.xml",
+        "lib/net9.0/CliWrap.dll",
+        "lib/net9.0/CliWrap.xml",
         "lib/netstandard2.0/CliWrap.dll",
         "lib/netstandard2.0/CliWrap.xml",
         "lib/netstandard2.1/CliWrap.dll",
@@ -578,25 +578,19 @@
         "youtubeexplode.nuspec"
       ]
     },
-    "YoutubeExplode.Converter/6.4.0": {
-      "sha512": "35Mz0VHvwoFExYCaTtoBuk6LQc5RG4D3MxK2L3O08MY4vIacHpkv5FfjcEMncE0ZZ0gKkK9oVaSj7ClrWzWylA==",
+    "YoutubeExplode.Converter/6.5.4": {
+      "sha512": "Sa5S+7MGXnJk+svpUPOvoIK7QWQlUfY4liZRUUPv7oTAIyk7IY4SVHJDAG1dOAhQMh2734nBrs9y2ABlwrqJxg==",
       "type": "package",
-      "path": "youtubeexplode.converter/6.4.0",
+      "path": "youtubeexplode.converter/6.5.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "favicon.png",
-        "lib/net461/YoutubeExplode.Converter.dll",
-        "lib/net461/YoutubeExplode.Converter.xml",
-        "lib/net8.0/YoutubeExplode.Converter.dll",
-        "lib/net8.0/YoutubeExplode.Converter.xml",
-        "lib/netcoreapp3.1/YoutubeExplode.Converter.dll",
-        "lib/netcoreapp3.1/YoutubeExplode.Converter.xml",
+        "lib/net9.0/YoutubeExplode.Converter.dll",
+        "lib/net9.0/YoutubeExplode.Converter.xml",
         "lib/netstandard2.0/YoutubeExplode.Converter.dll",
         "lib/netstandard2.0/YoutubeExplode.Converter.xml",
-        "lib/netstandard2.1/YoutubeExplode.Converter.dll",
-        "lib/netstandard2.1/YoutubeExplode.Converter.xml",
-        "youtubeexplode.converter.6.4.0.nupkg.sha512",
+        "youtubeexplode.converter.6.5.4.nupkg.sha512",
         "youtubeexplode.converter.nuspec"
       ]
     }
@@ -606,7 +600,7 @@
       "MediaToolkit >= 1.1.0.1",
       "System.Configuration.ConfigurationManager >= 8.0.0",
       "YoutubeExplode >= 6.5.4",
-      "YoutubeExplode.Converter >= 6.4.0"
+      "YoutubeExplode.Converter >= 6.5.4"
     ]
   },
   "packageFolders": {
@@ -667,7 +661,7 @@
           },
           "YoutubeExplode.Converter": {
             "target": "Package",
-            "version": "[6.4.0, )"
+            "version": "[6.5.4, )"
           }
         },
         "imports": [
